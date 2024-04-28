@@ -4,7 +4,6 @@ import threading
 import queue
 import cv2  # OpenCV for image processing
 from PIL import Image, ImageTk
-
 class WorkerThread(threading.Thread):
     def _init_(self, task_queue):
         threading.Thread._init_(self)
